@@ -1,0 +1,33 @@
+.unique__img{
+    width: 60px;
+    height: 60px;
+
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: $border-medium;
+    
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+.unique__info{
+    span {
+        font-size: 14px;
+        color: #fff;
+        vertical-align: top; // for mobile
+    }
+}
+
+.unique__progress{
+    width: 200px;
+    height: 30px;
+}
+
+.unique__score{
+    margin-left: 15px;
+    font-size: 24px;
+    color: #fff;
+    transition: all 0.2s;
+}

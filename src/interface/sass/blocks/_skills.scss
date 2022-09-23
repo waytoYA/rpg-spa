@@ -1,0 +1,92 @@
+.skills{
+    padding: 0 15px 70px 15px;
+
+    height: inherit;
+
+    overflow-y: auto;
+
+    // для фаерфокса
+    scrollbar-width: 8px;
+    scrollbar-color: #c3c3c3 #000;
+
+    // Для хром-едж-сафари
+    &::-webkit-scrollbar{
+        width: 8px;   
+    }
+    &::-webkit-scrollbar-track {
+        background: none;      
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: #c3c3c3; 
+        border-radius: 5px;       
+        border: 1px solid #000;  
+    }
+}
+
+.skills__item{
+    margin-top: 15px ;  // Расстояние имени + название + отступ аватарки, действует только на первый блок
+    
+    & + & {
+        margin-top: 7px;
+    }
+}
+
+%after-block-name {
+    &::after{
+        content: "";
+        display: inline;
+        position: absolute;
+        top: 13px;
+        left: 8px;
+        width: 30px;
+        height: 30px;
+
+        background-repeat: no-repeat;
+    }
+}
+
+.skills__item__name{
+    @extend %after-block-name;
+
+    width: 100%;
+    height: 60px;
+    position: relative;
+
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 50px;
+
+    color: #fff;
+    border-radius: $border-medium;
+    background-color: rgba(88, 113, 255, 0.662);
+
+}
+
+.item__name__power{
+    &::after{
+        background-image: url(../img/icons/power.svg);
+    }
+}
+.item__name__fast{
+    &::after{
+        background-image: url(../img/icons/fast.svg);
+    }
+}
+.item__name__brain{
+    &::after{
+        background-image: url(../img/icons/brain.svg);
+    }
+}
+.item__name__charisma{
+    &::after{
+        background-image: url(../img/icons/charisma.svg);
+    }
+}
+
+
+.skills_item__list{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}

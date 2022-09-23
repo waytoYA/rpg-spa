@@ -1,0 +1,27 @@
+.parameters{
+    padding: 0 15px;
+}
+
+.parameters__base{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 15px;  // Расстояние имени + отступ аватарки
+    margin-bottom: 100px;
+}
+
+.parameters__base__item{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+}
+
+.parameters__unique__item{
+    display: flex;
+    align-items: center;
+    
+    & + & {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,65 @@
+.skillOne{
+    width: 90%;
+    height: 50px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    background-color: #fff;
+    cursor: pointer;
+
+    &:last-child{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    &::after{
+        content: "";
+        display: inline;
+        position: absolute;
+
+        right: 15px;
+        width: 20px;
+        height: 20px;
+
+        opacity: 0.5;
+
+        background-image: url(../img/icons/upgrade.svg);
+        background-repeat: no-repeat;
+    }
+
+    &:hover{
+        &::after{
+            opacity: 1;
+        }
+    }
+}
+
+.skillOne__level{
+    width: 50px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.skillOne__info {
+    width: 100%;
+}
+
+.skillOne__rating{
+    height: 15px;
+    display: flex;
+
+    margin-bottom: 5px;
+
+    img {
+        width: 15px;
+        height: 15px;  
+          
+        margin-right: 2px;
+    }
+}
+
+.skillOne__name{
+    height: 30px;
+    font-size: 18px;
+}

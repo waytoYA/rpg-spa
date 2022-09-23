@@ -1,0 +1,20 @@
+// imports
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&display=swap');
+
+body {
+    font-size: 14px;
+    font-family: 'Jura', sans-serif;
+
+    background-size: cover;
+    background-image: url(../../interface/img/taverna.jpg);
+    background-repeat: no-repeat;
+}
+
+.title{
+    display: flex; // for question
+    height: 30px;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
