@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/rpg-spa/static/css/main.c169f4bc.css",
+    "main.js": "/rpg-spa/static/js/main.16e94cca.js",
+    "static/media/taverna.jpg": "/rpg-spa/static/media/taverna.6166c85d7f365de5b50b.jpg",
+    "static/media/fon.jpg": "/rpg-spa/static/media/fon.c5dac56eb151721c5b1d.jpg",
+    "static/media/hero.png": "/rpg-spa/static/media/hero.e632697527601ee152c1.png",
+    "static/media/fastBlock.svg": "/rpg-spa/static/media/fastBlock.0be5f1512413f022e966.svg",
+    "static/media/fast.svg": "/rpg-spa/static/media/fast.bf3112b4ae8bcf8bc336.svg",
+    "static/media/brainBlock.svg": "/rpg-spa/static/media/brainBlock.151e49cafd4c1870238f.svg",
+    "static/media/brain.svg": "/rpg-spa/static/media/brain.a2a12232bbb8bc696605.svg",
+    "static/media/powerBlock.svg": "/rpg-spa/static/media/powerBlock.3a5a345a6d0a55689af4.svg",
+    "static/media/power.svg": "/rpg-spa/static/media/power.ff128c21bef831bdb700.svg",
+    "static/media/charismaBlock.svg": "/rpg-spa/static/media/charismaBlock.177a557c5ea0bdfe97b4.svg",
+    "static/media/charisma.svg": "/rpg-spa/static/media/charisma.5dacf871d862f4373335.svg",
+    "static/media/heart.svg": "/rpg-spa/static/media/heart.3531bd89155f3af404e3ad9f08189750.svg",
+    "static/media/evasion.svg": "/rpg-spa/static/media/evasion.13aa54b03c2d0fd22a23e097ed185faa.svg",
+    "static/media/edit.svg": "/rpg-spa/static/media/edit.8ec2eb8d1ca0ae1a82140df1f86820e8.svg",
+    "static/media/star-gold.svg": "/rpg-spa/static/media/star-gold.04faf8c29db4814c3b4fddbd8db013d3.svg",
+    "static/media/star-black.svg": "/rpg-spa/static/media/star-black.8b9a212977b6fd354c055bed2a25e96b.svg",
+    "static/media/upgrade.svg": "/rpg-spa/static/media/upgrade.8ab6cd4aebd55fb8fb1c.svg",
+    "index.html": "/rpg-spa/index.html",
+    "static/media/energy.svg": "/rpg-spa/static/media/energy.32b0a60a1a58ba1978b324fd68d320b9.svg",
+    "main.c169f4bc.css.map": "/rpg-spa/static/css/main.c169f4bc.css.map",
+    "main.16e94cca.js.map": "/rpg-spa/static/js/main.16e94cca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c169f4bc.css",
+    "static/js/main.16e94cca.js"
+  ]
+}
